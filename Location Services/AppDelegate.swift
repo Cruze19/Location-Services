@@ -2,15 +2,13 @@
 //  AppDelegate.swift
 //  Location Services
 //
-//  Created by Jamisel Roman on 4/6/25.
+//  Created by Ennis Cruz on 4/6/25.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
