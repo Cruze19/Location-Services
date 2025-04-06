@@ -124,6 +124,12 @@
                             <constraint firstItem="rHE-DC-kl1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="soj-Ad-Pqd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myAltitude" destination="Jsu-jd-gU0" id="0sG-PZ-MkH"/>
+                        <outlet property="myLatitude" destination="Vcg-7t-1ox" id="ake-Q9-u7s"/>
+                        <outlet property="myLongitude" destination="FKM-cc-YLl" id="UMX-en-MKM"/>
+                        <outlet property="myMap" destination="aro-Ja-Nyk" id="lZM-k6-IdG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
