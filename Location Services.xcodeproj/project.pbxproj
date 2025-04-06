@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3D00F1A62DA2F12C0059C434 /* Exceptions for "Location Services" folder in "Location Services" target */ = {
+		3D00F1A62DA2F12C0059C434 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3D00F1802DA2F12A0059C434 /* Location Services */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3D00F1A62DA2F12C0059C434 /* Exceptions for "Location Services" folder in "Location Services" target */,
-			);
-			path = "Location Services";
-			sourceTree = "<group>";
-		};
-		3D00F1972DA2F12C0059C434 /* Location ServicesTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Location ServicesTests";
-			sourceTree = "<group>";
-		};
-		3D00F1A12DA2F12C0059C434 /* Location ServicesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Location ServicesUITests";
-			sourceTree = "<group>";
-		};
+		3D00F1802DA2F12A0059C434 /* Location Services */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3D00F1A62DA2F12C0059C434 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Location Services"; sourceTree = "<group>"; };
+		3D00F1972DA2F12C0059C434 /* Location ServicesTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Location ServicesTests"; sourceTree = "<group>"; };
+		3D00F1A12DA2F12C0059C434 /* Location ServicesUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Location ServicesUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 3D00F1792DA2F12A0059C434 /* Build configuration list for PBXProject "Location Services" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 3D00F1752DA2F12A0059C434;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3D00F17F2DA2F12A0059C434 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
